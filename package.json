@@ -4,7 +4,9 @@
   "description": "Prefix commit messages based on modified files",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "preversion": "git pull && pnpm build",
+    "postversion": "git push --follow-tags"
   },
   "keywords": [
     "commit",
