@@ -1,0 +1,20 @@
+{
+  "name": "commit-prefixer",
+  "version": "0.0.0",
+  "description": "Prefix commit messages based on modified files",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "commit",
+    "prefix",
+    "hook"
+  ],
+  "author": "Dominic Bartl",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "16",
+    "typescript": "^5.0.4"
+  }
+}
